@@ -1,0 +1,15 @@
+
+ Here is an illustration of how to add line numbers.
+ You invoke the | add_linenum | command.
+
+ It is wise ot make sure it is your path.
+ % which add_linenum
+ /afs/slac.stanford.edu/g/babar/bin/add_linenum
+
+ You can then generate a .tex file using it
+
+ % add_linenum paper.tex
+ Creating new Tex file paper_linenum.tex
+ paper_linenum.tex has been created.
+ You can now run latex and create the ps/pdf to see the line numbered document.
+
